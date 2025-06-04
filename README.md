@@ -58,24 +58,26 @@ ChatAPP/
 
 1. **Clona el repositorio**
 
-`bash
+```bash
 git clone https://github.com/tu-usuario/ChatAPP.git
 cd ChatAPP
+```
 
 2. **Instalar y ejecutar backend**
 
-cd backend
+```cd backend
 python -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+```
 
 2. **Instalar y ejecutar frontend**
    
-cd ../frontend
+```cd ../frontend
 npm install
 npm run dev
-
+```
 ### 🧪 Uso
   - Abre dos terminales: una para el backend (python app.py) y otra para el frontend (npm run dev)
   - Abre tu navegador en http://localhost:5173
