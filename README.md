@@ -25,21 +25,25 @@ ChatAPP es una aplicación web de chat en tiempo real construida con un stack mo
 
 ## 📁 Estructura del Proyecto
 
+```text
 ChatAPP/
 ├── backend/
-│ ├── app.py
-│ ├── db_utils.py
-│ └── requirements.txt
+│   ├── app.py                  # Archivo principal del servidor Flask
+│   ├── db_utils.py             # Funciones para manejar la base de datos
+│   └── requirements.txt        # Dependencias del backend
+│
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ ├── public/
-│ └── vite.config.js
+│   ├── src/
+│   │   ├── components/         # Componentes de React
+│   │   ├── App.jsx             # Componente principal
+│   │   └── main.jsx            # Punto de entrada de React
+│   ├── public/                 # Archivos públicos
+│   └── vite.config.js          # Configuración de Vite
+│
 ├── database/
-│ └── chatapp.db
-└── README.md
+│   └── chatapp.db              # Base de datos SQLite (opcional)
+│
+└── README.md                   # Documentación del proyecto
 
 
 ## ⚙️ Configuración del Proyecto
