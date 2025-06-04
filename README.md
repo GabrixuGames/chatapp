@@ -44,7 +44,7 @@ ChatAPP/
 │   └── chatapp.db              # Base de datos SQLite (opcional)
 │
 └── README.md                   # Documentación del proyecto
-
+```
 
 ## ⚙️ Configuración del Proyecto
 
